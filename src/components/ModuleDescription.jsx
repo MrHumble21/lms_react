@@ -31,37 +31,37 @@ function ModuleDescription() {
           <div className="list-group list-group-flush">
             <a
               className="list-group-item list-group-item-action list-group-item-light p-3"
-              href="#!"
+              href="/#"
             >
               Dashboard
             </a>
             <a
               className="list-group-item list-group-item-action list-group-item-light p-3"
-              href="#!"
+              href="/#"
             >
               Shortcuts
             </a>
             <a
               className="list-group-item list-group-item-action list-group-item-light p-3"
-              href="#!"
+              href="/#"
             >
               Overview
             </a>
             <a
               className="list-group-item list-group-item-action list-group-item-light p-3"
-              href="#!"
+              href="/#"
             >
               Events
             </a>
             <a
               className="list-group-item list-group-item-action list-group-item-light p-3"
-              href="#!"
+              href="/#"
             >
               Profile
             </a>
             <a
               className="list-group-item list-group-item-action list-group-item-light p-3"
-              href="#!"
+              href="/#"
             >
               Status
             </a>
@@ -69,10 +69,10 @@ function ModuleDescription() {
         </div>
 
         <div id="page-content-wrapper">
-          <nav className="navbar  fixed-top  navbar-expand-lg navbar-light bg-light border-bottom">
+          <nav className="navbar bg-blur-dark  fixed-top  navbar-expand-lg navbar-light bg-light border-bottom">
             <div className="container-fluid">
               <button
-                className="btn btn-outline-success alert-success"
+                className="btn btn-btn-outline-light  alert-light"
                 onClick={(e) => sidebarHandler()}
                 id="sidebarToggle"
               >
@@ -101,12 +101,12 @@ function ModuleDescription() {
               >
                 <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
                   <li className="nav-item active">
-                    <a className="nav-link" href="#!">
+                    <a className="nav-link" href="/#">
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#!">
+                    <a className="nav-link" href="/#">
                       Link
                     </a>
                   </li>
@@ -126,14 +126,14 @@ function ModuleDescription() {
                       className="dropdown-menu dropdown-menu-end"
                       aria-labelledby="navbarDropdown"
                     >
-                      <a className="dropdown-item" href="#!">
+                      <a className="dropdown-item" href="/#">
                         Action
                       </a>
-                      <a className="dropdown-item" href="#!">
+                      <a className="dropdown-item" href="/#">
                         Another action
                       </a>
                       <div className="dropdown-divider"></div>
-                      <a className="dropdown-item" href="#!">
+                      <a className="dropdown-item" href="/#">
                         Something else here
                       </a>
                     </div>
@@ -144,7 +144,7 @@ function ModuleDescription() {
           </nav>
           <br />
           {/* main content */}
-          <div className="mt-5 container">
+          <div className="mt-5 container inner-container-sidebar" >
             <div className="alert-success alert name-container container my-2">
               <h4>Hi Abdulboriy! Are you ready to rock todays lessons? 😎</h4>
               <span class="badge rounded-pill bg-light text-black-50">
