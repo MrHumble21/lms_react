@@ -65,11 +65,7 @@ function Modules(props) {
                           {module.name}
                         </h6>
                         <p className="card-text">{module.website}</p>
-                        <div className="like__container">
-                          <i className=" fa-solid fa-thumbs-up"></i>
-
-                          <i className="mx-3 dislike fa-solid fa-thumbs-up"></i>
-                        </div>
+                        
                       </div>
                     </div>
                   </Link>
