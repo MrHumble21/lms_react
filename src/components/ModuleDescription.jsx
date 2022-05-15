@@ -196,88 +196,102 @@ function ModuleDescription() {
                               type="button"
                               class="list-group-item list-group-item-action"
                               aria-current="true"
-                            ><i class="fa-solid fa-file mx-2 text-primary"></i>
+                            >
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>
                               The current button
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A second item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A second item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A third button item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A third button item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A fourth button item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A fourth button item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                            <i class="fa-solid fa-file mx-2 text-primary"></i>  A button item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A button item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                               aria-current="true"
-                            ><i class="fa-solid fa-file mx-2 text-primary"></i>
+                            >
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>
                               The current button
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A second item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A second item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A third button item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A third button item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A fourth button item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A fourth button item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                <i class="fa-solid fa-file mx-2 text-primary"></i>              A button item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A button item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                               aria-current="true"
-                            ><i class="fa-solid fa-file mx-2 text-primary"></i>
+                            >
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>
                               The current button
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A second item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A second item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A third button item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A third button item
                             </button>
                             <button
                               type="button"
                               class="list-group-item list-group-item-action"
                             >
-                             <i class="fa-solid fa-file mx-2 text-primary"></i> A fourth button item
+                              <i class="fa-solid fa-file mx-2 text-primary"></i>{" "}
+                              A fourth button item
                             </button>
                           </div>
                         }
@@ -287,8 +301,8 @@ function ModuleDescription() {
                           type="button"
                           class="btn btn-secondary"
                           data-bs-dismiss="modal"
-                        ><i class="fa-solid fa-file mx-2 text-primary"></i>
-                          Close
+                        >
+                             Close
                         </button>
                       </div>
                     </div>
