@@ -1,0 +1,72 @@
+.bg-blur-dark {
+ background-color: #1C658C;
+
+}
+.bg-blur-dark> *{
+ color: #15133C !important;
+
+}
+
+
+.card{
+    max-width: 25rem;
+}
+
+#root > div > nav > div {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+@media (max-width: 555px) {
+  #root > div > nav > div > div.w-25.nav-brand {
+    width: 50% !important;
+  }
+
+  .rounded-top{
+      min-height: 100vh;
+  }
+
+  .greetings {
+    display: none !important;
+  }
+
+  .right {
+    display: flex !important;
+    justify-content: start !important;
+  }
+
+  .mainpage{
+      background-position: -450px;
+  }
+}
+
+@media (min-width: 465px) {
+  #root > div > nav > div > div.w-25.nav-brand {
+    width: 20% !important;
+  }
+}
+
+
+
+.rounded-top{
+    border-radius: 50px  50px 0 0 !important;
+}
+.custom-card{
+    border-radius: 15px !important;
+}
+
+
+.custom-card:hover{
+   transform: scale(1.025);
+   transition: all 0.2s ease-in-out;
+}
+
+.custom-card>img{
+    border-radius: 15px 15px 0 0 !important;
+   transition: transform 0.8s ease;
+
+}
+
+.dislike{
+    transform: rotate(180deg);
+}
