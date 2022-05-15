@@ -144,7 +144,7 @@ function ModuleDescription() {
           </nav>
           <br />
           {/* main content */}
-          <div className="mt-5 container-fluid">
+          <div className="mt-5 container">
             <div className="alert-success alert name-container container my-2">
               <h4>Hi Abdulboriy! Are you ready to rock todays lessons? 😎</h4>
               <span class="badge rounded-pill bg-light text-black-50">
