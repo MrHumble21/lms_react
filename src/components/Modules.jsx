@@ -1,12 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-
+import like from "../assets/images/like.png";
+import liked from "../assets/images/liked.png";
 import wiut from "../assets/images/wiut.JPG";
 import Spinner from "./Spinner";
 
 function Modules(props) {
   const [modules, setModules] = useState([]);
+  const [dislike, setLike] = useState(true);
+
+  const likeHanler = (e)=>{
+   
+    setLike(!dislike)
+  }
+
+
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
@@ -44,19 +53,20 @@ function Modules(props) {
                   key={module.id}
                   className="col-sm-3 py-2  d-flex justify-content-center align-items-center"
                 >
-                  <Link
-                    to={`${module.id}`}
-                    state={moduleName}
-                    className=" text-decoration-none card custom-card bg-light mb-4"
-                  >
-                    <div className="card custom-card position-relative bg-light ">
-                      <img src={wiut} alt="" />
-                      <span className=" position-absolute fs-5 badge bg-danger"></span>
-                      <div
-                        style={{
-                          background: "#398AB9 !important",
-                        }}
-                        className="card-body"
+                  <div className="card custom-card position-relative bg-light ">
+                    <img src={wiut} alt="" />
+                    <span className=" position-absolute fs-5 badge bg-danger"></span>
+                    <div
+                      style={{
+                        background: "#398AB9 !important",
+                      }}
+                      className="card-body"
+                    >
+                      {" "}
+                      <Link
+                        to={`${module.id}`}
+                        state={moduleName}
+                        className=" text-decoration-none bg-light mb-4"
                       >
                         <h6
                           style={{ color: "#1C658C" }}
@@ -64,11 +74,13 @@ function Modules(props) {
                         >
                           {module.name}
                         </h6>
-                        <p className="card-text">{module.website}</p>
-                        
-                      </div>
+                      </Link>
+                      <p className="card-text">{module.website}</p>
+                      <button className='d-flex justify-content-end btn btn-outline-light' onClick={()=>likeHanler()} >
+                        <img style={{ width: "30px" }} src={dislike ? like : liked} alt="" />
+                      </button>
                     </div>
-                  </Link>
+                  </div>
                 </div>
               );
             })}
